@@ -1,0 +1,53 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="expense.css">
+    <link rel="stylesheet" href="premium.css">
+   
+</head>
+<body>
+    <div class="form-group">
+         <h1>Expense Tracker App</h1>
+        <label for="amount-input">Expense Amount: </label>
+        <input type="number" id="amount-input">
+        <label for="description-input">Description: </label>
+        <input type="text" id="description-input">
+        <label for="category-select">Category: </label>
+        <select id="category-select">
+            <option value="Food & Beverage">Food & Beverage</option>
+            <option value="Fuel">Fuel</option>
+            <option value="Transport">Transport</option>
+            <option value="Salary">Salary</option>
+            <option value="Movie">Movie</option>
+        </select>
+    <button id="add-expense">Add Expense</button> </div>
+    <button id="purchase-premium" class="purchase-btn">Purchase Premium Membership</button>
+    <button  id="purchase" style="display: none;"   class="btn btn-primary">You are Premium User </button>
+<br>
+<input id="show-leaderboard-btn" class="show-leaderboard-button" type="button" value="Show Leaderboard">
+<div class="leaderboard-container">
+    <table class="leaderboard-table">
+        <thead>
+            <tr>
+                <th>Rank</th>
+                <th>Username</th>
+                <th>Total Expense</th>
+            </tr>
+        </thead>
+        <tbody id="leaderboard-list">
+        </tbody>
+    </table>
+</div> 
+    <ul id="expense-list"></ul>  
+   
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="expense.js"></script>
+
+</body>
+</html>

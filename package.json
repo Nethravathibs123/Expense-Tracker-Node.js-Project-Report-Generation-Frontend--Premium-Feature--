@@ -1,0 +1,30 @@
+{
+  "name": "expensetracker",
+  "version": "1.0.0",
+  "description": "node complete",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nethra",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "@getbrevo/brevo": "^1.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "expree": "^2.1.0",
+    "express": "^4.21.1",
+    "express-handlebars": "^8.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.4",
+    "pug": "^3.0.3",
+    "razorpay": "^2.9.5",
+    "sequelize": "^6.37.5",
+    "uuid": "^11.0.3"
+  }
+}
