@@ -107,3 +107,4 @@ exports.deleteExpense = async (req, res) => {
     res.status(500).json({ error: 'An error occurred while deleting the expense.' });
   }
 };
+
