@@ -1,6 +1,3 @@
-
-
-
 const loginForm = document.getElementById("login-form");
 const errorMsg = document.getElementById('error');
 let login = [];
